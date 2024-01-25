@@ -41,7 +41,7 @@ Open the terminal and type following commands.
 
   <p>
   <img src="https://github.com/EthicalUniverse/Tool-Z/blob/main/image/facebook-logo-0.png" width="40" height="40" /> <a
-href="http://facebook.com">Facebook</a>
+href="https://www.facebook.com/EthicalUniversebd">Facebook</a>
   </p>
 <p float="center">
   
