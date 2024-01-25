@@ -36,7 +36,7 @@ Open the terminal and type following commands.
 
 ## social media
 <p>
-  <a href="https://youtube.com/@Ethical_Universe">Youtube</a>
+ <img src="https://github.com/EthicalUniverse/Tool-Z/blob/main/image/pngfind.com-youtube-logo-png-1235246.png" width="40" height="40" /> <a href="https://youtube.com/@Ethical_Universe">Youtube</a>
   </p>
 
   <p>
