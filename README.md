@@ -17,9 +17,9 @@ Open the terminal and type following commands.
 
 * `apt install git`
 
-* `git clone https://github.com/EthicalUniverse/Termux-Banner`
+* `git clone https://github.com/EthicalUniverse/Tool-Z`
 
-* `cd Termux-Banner`
+* `cd Tool-Z`
 
 * `chmod +x *`
 
