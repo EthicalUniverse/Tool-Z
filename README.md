@@ -43,4 +43,4 @@ Open the terminal and type following commands.
   <a href="http://facebook.com">Facebook</a>
   </p>
 <p float="center">
-  <img src="https://github.com/EthicalUniverse/Tool-Z/blob/main/image/IMG_20240125_150853.jpg" width="50" height="50" />
+  <img src="https://github.com/EthicalUniverse/Tool-Z/blob/main/image/IMG_20240125_150853.jpg" width="40" height="40" />
