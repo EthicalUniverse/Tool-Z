@@ -3,7 +3,7 @@
 
 
 <p float="center">
-  <img src="https://github.com/EthicalUniverse/Termux-Banner/blob/main/Image/IMG_20240124_212134.jpg" width="400" height="300" />
+  <img src="https://github.com/EthicalUniverse/Tool-Z/blob/main/image/IMG_20240125_150853.jpg" width="400" height="300" />
   <img src="https://github.com/EthicalUniverse/Termux-Banner/blob/main/Image/IMG_20240124_212155.jpg" width="400" height="300" /> 
 </p>
 
