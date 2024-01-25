@@ -1,0 +1,211 @@
+## ANSI colors (FG & BG)
+RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
+MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
+REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf '\033[43m')"  BLUEBG="$(printf '\033[44m')"
+MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
+RESETBG="$(printf '\e[0m\n')"
+
+
+
+## Exit message
+msg_exit() {
+	{ clear; banner; echo; }
+	echo -e "${GREENBG}${BLACK} Thank you for using this tool. Have a good day.${RESETBG}\n"
+	{ exit 0; }
+}
+
+## About
+about() {
+	{ clear; banner; }
+	cat <<- EOF
+		${GREEN} • Author   ${RED}:${ORANGE} Kobir Khan ${RED}[ ${ORANGE}Ethiacl Universe${RED}]
+		${GREEN} • Version  ${RED}:${ORANGE} V2.0
+		${GREEN} • Github   ${RED}:${CYAN} https://github.com/EthicalUniverse
+		${GREEN} • YouTube  ${RED}:${CYAN} https://youtube.com/@Ethical_Universe
+		${GREEN} • Facebook ${RED}:${CYAN} https://facebook.com/@Ethical_Universe
+		
+		${WHITE}==================================================== 
+${RED}[${WHITE}00${RED}]${ORANGE} Main Menu
+${WHITE}==================================================== 
+	EOF
+
+	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
+	case $REPLY in 
+	
+		0 | 00)
+			echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Returning to main menu..."
+			{ sleep 1; clear; banner; home; };;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; about; };;
+	esac
+}
+
+
+## All Tool
+
+all_tool() {
+        cat <<- EOF
+${RED}[${WHITE}01${RED}]${ORANGE} Information Gathering
+${RED}[${WHITE}02${RED}]${ORANGE} Vulnerability Scanner
+${RED}[${WHITE}03${RED}]${ORANGE} Exploitation Tools
+${RED}[${WHITE}04${RED}]${ORANGE} Wireless Testing
+${RED}[${WHITE}05${RED}]${ORANGE} Forensics Tools
+${RED}[${WHITE}06${RED}]${ORANGE} Web Hacking
+${RED}[${WHITE}07${RED}]${ORANGE} Stress Testing
+${RED}[${WHITE}08${RED}]${ORANGE} Sniffing & Spoofing
+${RED}[${WHITE}09${RED}]${ORANGE} Password Attacks
+${RED}[${WHITE}10${RED}]${ORANGE} Maintaining Access
+${RED}[${WHITE}11${RED}]${ORANGE} IP-Tracking tools
+${RED}[${WHITE}12${RED}]${ORANGE} Programming Languages
+${RED}[${WHITE}13${RED}]${ORANGE} DDOS Attacks
+${RED}[${WHITE}14${RED}]${ORANGE} Web Server's
+
+${RED}[${WHITE}00${RED}]${ORANGE} Back
+
+${WHITE}==================================================== 
+	EOF
+
+	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${WHITE}"
+	
+	case $REPLY in 
+		1 | 01)
+			tool_category;;		
+		2 | 02)
+			website="google_new"
+			mask='https://get-unlimited-google-drive-free'
+			tunnel_menu;;
+		3 | 03)
+			website="google_poll"
+			mask='https://vote-for-the-best-social-media'
+			tunnel_menu;;
+		4 | 04)
+		    about;;
+		00)
+	 	{ sleep 1; clear; banner; home; };;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; clear; banner_small; site_gmail; };;
+	esac
+}
+	
+## Tool Category
+
+tool_category() {
+        cat <<- EOF
+${RED}[${WHITE}01${RED}]${ORANGE} Information Gathering
+${RED}[${WHITE}02${RED}]${ORANGE} Vulnerability Scanner
+${RED}[${WHITE}03${RED}]${ORANGE} Exploitation Tools
+${RED}[${WHITE}04${RED}]${ORANGE} Wireless Testing
+${RED}[${WHITE}05${RED}]${ORANGE} Forensics Tools
+${RED}[${WHITE}06${RED}]${ORANGE} Web Hacking
+${RED}[${WHITE}07${RED}]${ORANGE} Stress Testing
+${RED}[${WHITE}08${RED}]${ORANGE} Sniffing & Spoofing
+${RED}[${WHITE}09${RED}]${ORANGE} Password Attacks
+${RED}[${WHITE}10${RED}]${ORANGE} Maintaining Access
+${RED}[${WHITE}11${RED}]${ORANGE} IP-Tracking tools
+${RED}[${WHITE}12${RED}]${ORANGE} Programming Languages
+${RED}[${WHITE}13${RED}]${ORANGE} DDOS Attacks
+${RED}[${WHITE}14${RED}]${ORANGE} Web Server's
+
+${RED}[${WHITE}00${RED}]${ORANGE} Back
+
+${WHITE}==================================================== 
+	EOF
+
+	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${WHITE}"
+
+	case $REPLY in 
+		1 | 01)
+			tool_category;;		
+		2 | 02)
+			website="google_new"
+			mask='https://get-unlimited-google-drive-free'
+			tunnel_menu;;
+		3 | 03)
+			website="google_poll"
+			mask='https://vote-for-the-best-social-media'
+			tunnel_menu;;
+		4 | 04)
+		    about;;
+		00)
+	 	{ sleep 1; clear; banner; home; };;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; clear; banner_small; site_gmail; };;
+	esac
+}
+
+
+	## Home
+home() {
+	cat <<- EOF
+${RED}[${WHITE}01${RED}]${ORANGE} Show all tools
+${RED}[${WHITE}02${RED}]${ORANGE} Tools Category
+${RED}[${WHITE}03${RED}]${ORANGE} Update Tool-Z
+${RED}[${WHITE}04${RED}]${ORANGE} About Us
+
+${WHITE}==================================================== 
+${RED}[${WHITE}X${RED}]${ORANGE} For Exit
+${WHITE}==================================================== 
+	EOF
+
+	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${WHITE}"
+
+	case $REPLY in 
+		1 | 01)
+			{ sleep 1; clear; banner; all_tool;};;	
+		2 | 02)
+			{ sleep 1; clear; banner; tool_category;};;
+		3 | 03)
+			website="google_poll"
+			mask='https://vote-for-the-best-social-media'
+			tunnel_menu;;
+		4 | 04)
+		    about;;
+		x | X)
+		msg_exit;;
+		*)
+			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
+			{ sleep 1; clear; banner; home; };;
+	esac
+}
+
+
+## Small Banner
+banner() {
+	cat <<- EOF
+	${GREEN}
+       _______          _      ______
+      |__   __|        | |    |___  /
+         | | ___   ___ | |______ / / 
+         | |/ _ \ / _ \| |______/ /  
+         | | (_) | (_) | |     / /__ 
+         |_|\___/ \___/|_|    /_____| ${RED} V2.0
+                                
+${WHITE} ================================================== 
+${ORANGE}|           Install Best Hacking Tool              |
+${WHITE} ==================================================  
+
+
+	EOF
+}
+
+
+clear
+echo "
+
+░        ░░      ░░░      ░░  ░░░░░░░        ░
+▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒  ▒▒▒▒  ▒  ▒▒▒▒▒▒▒▒▒▒▒▒  ▒▒
+▓▓▓▓  ▓▓▓▓  ▓▓▓▓  ▓  ▓▓▓▓  ▓  ▓▓▓▓▓▓▓▓▓▓  ▓▓▓▓
+████  ████  ████  █  ████  █  ████████  ██████
+████  █████      ███      ██        █        █
+                                              
+                                    
+                                                  
+                                          
+
+<============ Created by Antor Ray =============>
+" | lolcat
+
+{ clear; banner; home; }
