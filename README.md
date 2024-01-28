@@ -36,12 +36,13 @@ Open the terminal and type following commands.
 
 ## social media
 <p>
- <img src="https://github.com/EthicalUniverse/Tool-Z/blob/main/image/pngfind.com-youtube-logo-png-1235246.png" width="30" height="30" /> <a href="https://youtube.com/@Ethical_Universe">Youtube</a>
+  <a href="https://youtube.com/@Ethical_Universe">Youtube</a>
   </p>
 
   <p>
-  <img src="https://github.com/EthicalUniverse/Tool-Z/blob/main/image/facebook-logo-0.png" width="40" height="40" /> <a
-href="https://www.facebook.com/EthicalUniversebd">Facebook</a>
+  <a href="https://www.facebook.com/EthicalUniversebd">Facebook</a>
   </p>
-<p float="center">
-  
+
+<p>
+  <a href="https://ethacaluniverse.blogspot.com">Website</a>
+  </p>
