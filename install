@@ -12,6 +12,5 @@ echo "
 apt update -y
 apt upgrade -y
 apt install python -y
-pip install lolcat -y
-bash .Tool-Z
+python .Tool-Z
 
