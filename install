@@ -12,5 +12,5 @@ echo "
 apt update -y
 apt upgrade -y
 apt install python -y
-python .Tool-Z
+python .Tool-Z.py
 
